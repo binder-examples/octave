@@ -1,6 +1,6 @@
-# octave binder
+# Octave on mybinder.org
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/octave-binder/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binder-examples/octave/master?filepath=index.ipynb)
 
 An example of using Octave on [mybinder.org](https://mybinder.org/).
 
