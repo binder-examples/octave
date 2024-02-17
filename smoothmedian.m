@@ -68,8 +68,3 @@
 %
 %  You should have received a copy of the GNU General Public License
 %  along with this program.  If not, see http://www.gnu.org/licenses/
-
-  % If applicable, switch dimension
-  if (dim > 1)
-    M  = M.';
-  end
