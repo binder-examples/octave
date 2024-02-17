@@ -1,9 +1,7 @@
-# Octave on mybinder.org
+# statistics-resampling online in Jupyter Octave Kernel
+
+Try the statistics-resampling package online in a Jupyter Notebook with an GNU Octave kernel using Binder. 
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/octave-binder/master?filepath=statistics-resampling.ipynb)
 
-An example of using Octave on [mybinder.org](https://mybinder.org/).
-
-This shows you how to make Matlab code that works with [Octave](https://www.gnu.org/software/octave/) run on [mybinder.org](https://mybinder.org/).
-
-The [example notebook](index.ipynb) is taken from the [octave_kernel](https://github.com/Calysto/octave_kernel) repository.
+Note that the first time you load access statistics-resampling online it will take a few minutes to build, but subsequent access to statistics-resampling online will only take a few of seconds.
