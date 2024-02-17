@@ -1,3 +1,0 @@
-info = ver;
-addpath('package-functions');
-fprintf('Running version statistics-resampling (version 5.5.7) in GNU Octave %s...\n',info.Version);
