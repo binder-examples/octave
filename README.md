@@ -1,4 +1,4 @@
-# statistics-resampling online in Jupyter Octave Kernel
+# statistics-resampling online in Jupyter Notebook
 
 Try the statistics-resampling package online in a Jupyter Notebook with an GNU Octave kernel using Binder. 
 
