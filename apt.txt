@@ -1,3 +1,2 @@
-gcc
-gnuplot
+qt5-default
 ghostscript
