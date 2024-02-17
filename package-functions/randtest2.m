@@ -522,6 +522,21 @@ end
 %! pval = randtest2 ([X GX], [Y GY], true, 5000)
 %!
 
+%!demo
+%!
+%! % Load example data from CSV file
+%! data = csvread ('demo_data.csv');
+%! trt = data(:,1); % Predictor: 0 = no treatment; 1 = treatment
+%! grp = data(:,2); % Cluster IDs
+%! val = data(:,3); % Values measured of the outcome
+%! X = val(trt==0); GX = grp(trt==0);
+%! Y = val(trt==1); GY = grp(trt==1);
+%!
+%! % Randomization test comparing the distributions of clustered observations
+%! % from two independent samples using the Wasserstein metric
+%! pval = randtest2([X, GX], [Y, GY], false)
+%!
+
 
 %!test
 %!
