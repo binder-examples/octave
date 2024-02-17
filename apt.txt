@@ -1,2 +1,4 @@
+octave
+octave-statistics-resampling
 gnuplot
 ghostscript
