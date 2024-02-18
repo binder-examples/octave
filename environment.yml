@@ -1,4 +1,12 @@
+name: statistics-resampling-online
+channels:
+  - conda-forge
 dependencies:
-- octave
-- octave_kernel
-- gxx_linux-64
+  - octave
+  - octave_kernel
+  # For compiling the Octave packages
+  - compilers
+  - make
+  # Runtime dependencies for some Octave package.
+  - gnutls
+  - sympy
