@@ -1,4 +1,6 @@
 dependencies:
-- build-essential
-- octave_kernel
+- g++
+- gcc
+- make
 - octave
+- octave_kernel
