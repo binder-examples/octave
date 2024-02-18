@@ -1,5 +1,4 @@
 dependencies:
-- gnuplot
 - octave
 - octave_kernel
 - gxx_linux-64
