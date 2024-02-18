@@ -1,4 +1,4 @@
 dependencies:
-- build-essentials
+- build-essential
 - octave_kernel
 - octave
