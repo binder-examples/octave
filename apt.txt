@@ -73,4 +73,5 @@ octave-vrml
 octave-zenity
 octave-zeromq
 gnuplot
+gnuplot-qt
 ghostscript
