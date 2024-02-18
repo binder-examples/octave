@@ -1,2 +1,4 @@
 dependencies:
 - octave_kernel
+- octave
+- octave-statistics
