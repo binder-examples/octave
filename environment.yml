@@ -1,6 +1,3 @@
 dependencies:
-- gxx
-- gcc
-- make
 - octave
 - octave_kernel
