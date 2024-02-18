@@ -1,7 +1,5 @@
 gnuplot
 gnuplot-qt
-gnuplot-x11
-gnuplot-nox
 default-jre-headless
 epstool
 libopenblas0
