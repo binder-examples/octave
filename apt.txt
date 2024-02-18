@@ -1,7 +1,2 @@
-build-essential
-clang
-cmake
-gdb
-wget
 gnuplot
 ghostscript
