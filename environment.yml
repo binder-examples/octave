@@ -2,4 +2,4 @@ dependencies:
 - octave
 - octave_kernel
 - pip:
-  - x86_64-linux-gnu-gcc
+  - gxx_linux-64
