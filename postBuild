@@ -7,3 +7,4 @@ set -o nounset
 # https://docs.octave.org/interpreter/Administrating-Packages.html
 # Use micromamba so that the compilers are properly found.
 micromamba run -n notebook octave-cli --eval 'pkg install -forge io optim struct statistics statistics-resampling'
+micromamba run -n notebook octave-cli --eval 'warning("off", "Octave:shadowed-function");'
