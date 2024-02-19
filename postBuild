@@ -6,4 +6,4 @@ set -o nounset
 # This works because postBuild user is the same as user running Binder.
 # https://docs.octave.org/interpreter/Administrating-Packages.html
 # Use micromamba so that the compilers are properly found.
-micromamba run -n notebook octave-cli --eval 'pkg install -forge io optim struct parallel statistics statistics-resampling'
+micromamba run -n notebook octave-cli --eval 'pkg install -forge io optim struct statistics statistics-resampling'
