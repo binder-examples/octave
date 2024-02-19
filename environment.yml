@@ -7,6 +7,5 @@ dependencies:
   # For compiling the Octave packages
   - compilers
   - make
-  # Runtime dependencies for some Octave package.
-  - gnutls
+  # Runtime dependencies for some Octave package
   - sympy
