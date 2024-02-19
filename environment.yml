@@ -8,4 +8,5 @@ dependencies:
   - compilers
   - make
   # Runtime dependencies for some Octave package
+  - gnutls
   - sympy
