@@ -1,2 +1,3 @@
 warning('off', 'Octave:shadowed-function');
 pkg load io struct optim statistics statistics-resampling
+warning('on', 'Octave:shadowed-function');
