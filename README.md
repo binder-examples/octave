@@ -1,6 +1,6 @@
 # statistics-resampling online in a JupyterLab Notebook
 
-Try the statistics-resampling package online in a JupyterLab Notebook with an GNU Octave kernel using Binder. 
+Try the statistics-resampling package online in a JupyterLab Notebook with an Octave kernel using Binder. 
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/statistics-resampling-online/master?labpath=statistics-resampling.ipynb)
 
