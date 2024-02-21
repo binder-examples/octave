@@ -13,3 +13,8 @@ dependencies:
   - sympy
   # Spreadsheet editor for JupyterLab
   - jupyterlab-spreadsheet-editor
+  # R
+  - r-base
+  - r-tidyverse
+  # Julia
+  - julia
