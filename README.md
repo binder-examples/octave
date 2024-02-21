@@ -4,7 +4,7 @@ Try the statistics-resampling (and statistics) package online in a JupyterLab No
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/statistics-resampling-online/master?labpath=statistics-resampling.ipynb)
 
-Note that the first time you load access statistics-resampling online (since the last commit at the GitHub repository) it will take a while to build the docker image, but subsequent access to statistics-resampling online will only take less than a minute or so.
+Note that the first time you load access statistics-resampling online (since the last commit at the GitHub repository) it will take a while to build the docker image, but subsequent access to statistics-resampling online will take less than a minute or so.
 
 You could consider forking the statistics-resampling-online GitHub repository and customizing the notebook (.ipynb) and data (.tsv and .csv) files to document and publish your data analysis project.
 
