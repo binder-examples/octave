@@ -16,5 +16,3 @@ dependencies:
   # R
   - r-base
   - r-tidyverse
-  # Julia
-  - julia
