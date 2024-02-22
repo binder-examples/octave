@@ -19,3 +19,9 @@ dependencies:
   - r-markdown
   # Python package manager
   - pip
+  # SOS notebook
+  - jupyterlab-sos
+  - sos-notebook
+  - sos-octave
+  - sos-r
+  - sos-python
