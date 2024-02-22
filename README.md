@@ -9,3 +9,5 @@ Note that the first time you load access statistics-resampling online (since the
 You could consider forking the statistics-resampling-online GitHub repository and customizing the notebook (.ipynb) and data (.tsv and .csv) files to document and publish your data analysis project.
 
 The documentation for the statistics-resampling package can be found [here](https://gnu-octave.github.io/statistics-resampling/index.html). If you wish to download and use the package offline, you can find the package source code on [GitHub](https://github.com/gnu-octave/statistics-resampling/).
+
+The docker image also includes kernels to run workbooks in R and Python (in which additional packages and modules can be installed from CRAN and with pip respectively).
