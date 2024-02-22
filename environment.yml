@@ -5,7 +5,7 @@ dependencies:
   # GNU Octave for JupyterLab
   - octave
   - octave_kernel
-  # For compiling Octave packages
+  # For compiling packages
   - compilers
   - make
   # Runtime dependencies for some Octave package
@@ -13,7 +13,7 @@ dependencies:
   - sympy
   # Spreadsheet editor for JupyterLab
   - jupyterlab-spreadsheet-editor
-  # R (including package manager)
+  # R (including package manager and markdown)
   - r-base
   - r-tidyverse
   - r-markdown
