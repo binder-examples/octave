@@ -1,2 +1,1 @@
-gnuplot
 ghostscript
