@@ -1,4 +1,5 @@
 warning('off', 'Octave:shadowed-function');
+pkg install -forge statistics statistics-resampling
 pkg load statistics statistics-resampling
 warning('on', 'Octave:shadowed-function');
 warning('off', 'Octave:legacy-function');
