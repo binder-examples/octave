@@ -2,6 +2,7 @@ name: statistics-resampling-online
 channels:
   - conda-forge
 dependencies:
+  - nbgitpuller
   # GNU Octave for JupyterLab
   - octave
   - octave_kernel
