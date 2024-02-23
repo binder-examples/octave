@@ -16,5 +16,3 @@ dependencies:
   - jupyterlab-spreadsheet-editor
   # R (including package manager)
   - r-base
-  # Python package manager
-  - pip
