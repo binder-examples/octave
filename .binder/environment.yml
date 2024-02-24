@@ -9,9 +9,6 @@ dependencies:
   # For compiling packages
   - compilers
   - make
-  # Runtime dependencies for some Octave packages
-  - gnutls
-  - sympy
   # Spreadsheet editor for JupyterLab
   - jupyterlab-spreadsheet-editor
   # R (including package manager)
