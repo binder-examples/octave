@@ -13,3 +13,5 @@ dependencies:
   - jupyterlab-spreadsheet-editor
   # R (including package manager)
   - r-base
+  # Runtime dependencies
+  - gnutls
