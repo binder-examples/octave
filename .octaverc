@@ -2,9 +2,9 @@
 warning('off', 'Octave:shadowed-function');
 warning('off', 'Octave:legacy-function');
 
-# Packages to install
+# Packages to pre-install
 pkg install -forge statistics-resampling
 
-# Packages to load
+# Packages to pre-load
 pkg load statistics-resampling
 
