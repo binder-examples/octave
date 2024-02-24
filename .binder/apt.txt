@@ -1,4 +1,4 @@
 libgl1-mesa-dev
-xvbf
+xvfb
 gnuplot
 ghostscript
