@@ -17,14 +17,6 @@ jobs:
         MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org 
                                                  # with the branch that was pushed on.
 
-  binder:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-
     - name: update jupyter dependencies with repo2docker
       uses: acpennlab/statistics-resampling-online@master
       with:
