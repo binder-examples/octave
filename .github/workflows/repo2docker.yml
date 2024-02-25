@@ -1,17 +1,17 @@
 name: repo2docker - Build and push docker image
 on: 
-  # Triggers the workflow on push or pull request events but only for the "dev" branch
+  # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "dev" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "dev" ]
+    branches: [ "master" ]
 
 jobs:
   Create-MyBinderOrg-Cache:
     runs-on: ubuntu-latest
     steps:
     - name: cache binder build on mybinder.org
-      uses: acpennlab/statistics-resampling-online@dev
+      uses: acpennlab/statistics-resampling-online@master
       with:
         NO_PUSH: true
         MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org 
@@ -26,7 +26,7 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
 
     - name: update jupyter dependencies with repo2docker
-      uses: acpennlab/statistics-resampling-online@dev
+      uses: acpennlab/statistics-resampling-online@master
       with:
         DOCKER_USERNAME: ${{ secrets.acpennlab }}
         DOCKER_PASSWORD: ${{ secrets.dckr_pat_mkj9kmLPVVq_BG3unSuavMzsX7E }}
