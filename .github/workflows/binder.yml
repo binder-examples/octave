@@ -1,0 +1,18 @@
+name: binder - Cache builds on mybinder.org
+on: 
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  Create-MyBinderOrg-Cache:
+    runs-on: ubuntu-latest
+    steps:
+    - name: cache binder build on mybinder.org
+      uses: acpennlab/statistics-resampling-online@master
+      with:
+        NO_PUSH: true
+        MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org 
+                                                 # with the branch that was pushed on.
