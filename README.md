@@ -8,9 +8,7 @@ Note that the first time you access statistics-resampling online (since the last
 
 You could consider loading Jupyter notebooks and data files from your own GitHub repositories using this Binder environment with the help of the [nbgitpuller link generator](https://nbgitpuller.readthedocs.io/en/latest/link.html?tab=binder). This Binder repository is `nbgitpuller` enabled, so you can use it's environment (and it's image if it exists already) to load content (e.g. notebooks and data) from your own GitHub repository (for an example, see [![](https://img.shields.io/github/forks/acpennlab/statistics-resampling-project?label=GitHub%20Repo&amp;style=social)](https://github.com/acpennlab/statistics-resampling-project/)). Alternatively, you could fork this repository or use it as a template for you own GitHub repository. 
 
-If you wish to download and use the package offline, you can find the package source code on [GitHub](https://github.com/gnu-octave/statistics-resampling/). The documentation for the statistics-resampling package can be found at the following link:
-
-[![Documentation](https://img.shields.io/badge/docs-online-blue.svg)](https://gnu-octave.github.io/statistics-resampling/)
+If you wish to download and use the package offline, you can find the package source code on [GitHub](https://github.com/gnu-octave/statistics-resampling/). The documentation for the statistics-resampling package can be found at the following link: [![Documentation](https://img.shields.io/badge/docs-online-blue.svg)](https://gnu-octave.github.io/statistics-resampling/)
 
 Please cite the following in any publication that uses this resource:
 
