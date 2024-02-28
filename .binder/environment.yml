@@ -9,7 +9,16 @@ dependencies:
   # For compiling packages
   - compilers
   - make
-  # Spreadsheet editor for JupyterLab
-  - jupyterlab-spreadsheet-editor
   # R (including package manager)
   - r-base
+  # Jupyter Lab extensions
+  - jupyterlab-spreadsheet-editor
+  - jupyterlab-drawio
+  - jupyterlab-latex
+  - jupyterlab-git
+  - jupyterlab-github
+  - jupyterlab-filesystem-access
+  - jupyterlab-system-monitor
+  - jupyterlab-search-replace
+  - jupyterlab-link-share
+  - jupyterlab-email
