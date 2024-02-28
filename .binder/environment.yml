@@ -15,8 +15,6 @@ dependencies:
   - jupyterlab-spreadsheet-editor
   - jupyterlab-drawio
   - jupyterlab-latex
-  - jupyterlab-git
-  - jupyterlab-github
   - jupyterlab-system-monitor
   - jupyterlab-search-replace
   - jupyterlab-link-share
