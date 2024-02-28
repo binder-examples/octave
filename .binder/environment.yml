@@ -17,8 +17,6 @@ dependencies:
   - jupyterlab-latex
   - jupyterlab-git
   - jupyterlab-github
-  - jupyterlab-filesystem-access
   - jupyterlab-system-monitor
   - jupyterlab-search-replace
   - jupyterlab-link-share
-  - jupyterlab-email
