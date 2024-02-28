@@ -15,5 +15,4 @@ dependencies:
   - jupyterlab-spreadsheet-editor
   - jupyterlab-drawio
   - jupyterlab-latex
-  - jupyterlab-link-share
   
