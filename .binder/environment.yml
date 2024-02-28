@@ -16,5 +16,4 @@ dependencies:
   - jupyterlab-drawio
   - jupyterlab-latex
   - jupyterlab-link-share
-  - jupyterlab-filesystem-access
   
