@@ -10,9 +10,7 @@ dependencies:
   - compilers
   - make
   # R (including package manager)
-  - r-base
-  - r-rstudioapi
-  - rstudio-desktop
+  - r-base=4.1.2-1
   # Jupyter Lab extensions
   - jupyterlab-spreadsheet-editor
   - jupyterlab-drawio
