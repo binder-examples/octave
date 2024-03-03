@@ -10,7 +10,6 @@ dependencies:
   - compilers
   - make
   # R (including package manager)
-  - r-base = 4.1.3 # latest version of R to use R_GE_version == 14 compatible with RStudio server 2022.12.0+353 on binder
   - r-essentials = 4.1
   # Jupyter Lab extensions
   - jupyterlab-spreadsheet-editor
