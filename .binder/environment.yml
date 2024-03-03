@@ -10,7 +10,7 @@ dependencies:
   - compilers
   - make
   # R (including package manager)
-  - r-essentials = 4.1.3
+  - r-essentials = 4.1
   # Jupyter Lab extensions
   - jupyterlab-spreadsheet-editor
   - jupyterlab-drawio
