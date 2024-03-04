@@ -2,9 +2,11 @@ name: statistics-resampling-online
 channels:
   - conda-forge
 dependencies:
+  - python = 3.10.12
   - nbgitpuller
   # GNU Octave for JupyterLab
-  - octave
+  # Octave 8.3 is the latest version to work with the same dependencies as R 4.1.3
+  - octave = 8.3 
   - octave_kernel
   # For compiling packages
   - compilers
