@@ -12,6 +12,7 @@ dependencies:
   # R (including package manager)
   # R 4.1.3 is the latest version to use R_GE_version == 14, which is compatible with RStudio server 2022.12.0+353 on binder
   - r-essentials = 4.1
+  - r-markdown
   # Jupyter Lab extensions
   - jupyterlab-spreadsheet-editor
   - jupyterlab-drawio
