@@ -3,20 +3,21 @@ channels:
   - conda-forge
 dependencies:
   - python = 3.10.12
-  - nbgitpuller
+  - nbgitpuller = 1.2.0
+  - ipyparallel = 8.6.1
   # GNU Octave for JupyterLab
   # Octave 8.3 is the latest version to work with the same dependencies as R 4.1.3
   - octave = 8.3 
-  - octave_kernel
+  - octave_kernel = 0.35.1
   # For compiling packages
-  - compilers
-  - make
+  - compilers = 1.7.0
+  - make = 4.3
   # R (including package manager)
   # R 4.1.3 is the latest version to use R_GE_version == 14, which is compatible with RStudio server 2022.12.0+353 on binder
   - r-essentials = 4.1
-  - r-markdown
+  - r-markdown = 1.7
   # Jupyter Lab extensions
-  - jupyterlab-spreadsheet-editor
-  - jupyterlab-drawio
-  - jupyterlab-latex
-  
+  - jupyterlab-spreadsheet-editor = 0.6.1
+  - jupyterlab-drawio = 0.9.0
+  - jupyterlab-latex = 3.1.0
+  - jupyterlab-filesystem-access = 0.5.3 
