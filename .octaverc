@@ -1,9 +1,10 @@
 # Set environmental variables
-setenv ('XDG_RUNTIME_DIR','/tmp/runtime-jovyan')
+setenv ('XDG_RUNTIME_DIR','/tmp/runtime-jovyan');
+setenv ('GNUTERM','qt');
 
 # Warnings to turn off
-warning('off', 'Octave:shadowed-function');
-warning('off', 'Octave:legacy-function');
+warning ('off', 'Octave:shadowed-function');
+warning ('off', 'Octave:legacy-function');
 
 # Packages to pre-install
 pkg install -forge statistics-resampling
