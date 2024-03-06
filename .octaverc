@@ -7,4 +7,4 @@ warning ('off', 'Octave:shadowed-function');
 warning ('off', 'Octave:legacy-function');
 
 # Packages to pre-load
-pkg load io statistics statistics-resampling
+pkg load io tablicious statistics statistics-resampling
