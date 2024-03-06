@@ -6,8 +6,5 @@ setenv ('GNUTERM','qt');
 warning ('off', 'Octave:shadowed-function');
 warning ('off', 'Octave:legacy-function');
 
-# Packages to pre-install
-pkg install -forge statistics-resampling
-
 # Packages to pre-load
-pkg load statistics-resampling
+pkg load io statistics statistics-resampling
