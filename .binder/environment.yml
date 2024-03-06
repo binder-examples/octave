@@ -25,4 +25,3 @@ dependencies:
   - jupyterlab-drawio = 0.9.0
   - jupyterlab-latex = 3.1.0
   - jupyterlab-filesystem-access = 0.5.3 
-  - jupyterlab-system-monitor = 0.8.0
