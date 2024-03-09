@@ -10,4 +10,4 @@ jobs:
       with:
         NO_PUSH: true
         MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org with the branch that was pushed on.
-        REPO2DOCKER_EXTRA_ARGS: --Repo2Docker.base_image ubuntu:22.04
+        REPO2DOCKER_EXTRA_ARGS: --Repo2Docker.base_image buildpack-deps:jammy
