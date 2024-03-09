@@ -10,5 +10,4 @@ jobs:
       with:
         NO_PUSH: true
         MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org with the branch that was pushed on.
-        FORCE_REPO2DOCKER_VERSION: repo2docker==2021.1.0
-        REPO2DOCKER_EXTRA_ARGS: --Repo2Docker.base_image=docker.io/library/buildpack-deps:bionic
+        REPO2DOCKER_EXTRA_ARGS: --Repo2Docker.base_image=quay.io/jupyterhub/repo2docker:2023.06.0-75.g3221560@sha256:3f0a789f7f779ebd4d57fa62e8fc669b4761cf5b51ece0cabe9494257f5ac6e9
