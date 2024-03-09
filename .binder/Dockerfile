@@ -1,0 +1,1 @@
+FROM quay.io/jupyterhub/repo2docker:2023.06.0-75.g3221560@sha256:3f0a789f7f779ebd4d57fa62e8fc669b4761cf5b51ece0cabe9494257f5ac6e9
