@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   Create-MyBinderOrg-Cache:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-jammy
     steps:
     - name: cache binder build on mybinder.org
       uses: jupyterhub/repo2docker-action@master
