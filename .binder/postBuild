@@ -1,0 +1,13 @@
+# Fail fast
+set -o errexit
+set -o nounset
+
+# Installation of Octave packages is dependent on current user.
+# This works because postBuild user is the same as user running Binder.
+# https://docs.octave.org/interpreter/Administrating-Packages.html
+# Use micromamba so that the compilers are properly found.
+# https://gnu-octave.github.io/packages/
+micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/io-2.6.4.tar.gz"'
+micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/apjanke/octave-tablicious/releases/download/v0.4.2/tablicious-0.4.2.tar.gz"'
+micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/gnu-octave/statistics/archive/refs/tags/release-1.6.5.tar.gz"'
+micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/gnu-octave/statistics-resampling/archive/refs/tags/5.5.7.tar.gz"'

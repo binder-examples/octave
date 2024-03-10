@@ -1,0 +1,7 @@
+[deps]
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+Tidier = "f0413319-3358-4bb0-8e7c-0c83523a93bd"
+Bootstrap = "e28b5b4c-05e8-5b66-bc03-6f0c0a0a06e0"
+
+[compat]
+julia = "1.10.2"
