@@ -2,26 +2,27 @@ name: statistics-resampling-online
 channels:
   - conda-forge
 dependencies:
-  - nbgitpuller = 1.2.0
+  - nbgitpuller == 1.2.0
   # GNU Octave for JupyterLab
   # Octave 8.3 is the latest version to work with the same dependencies as R 4.1.3
-  - octave = 8.3 
-  - octave_kernel = 0.35.1
+  - octave == 8.3 
+  - octave_kernel == 0.35.1
   # For compiling packages
-  - compilers = 1.7.0
-  - make = 4.3
+  - compilers == 1.7.0
+  - make == 4.3
   # Python
-  - python = 3.10.12
-  - ipyparallel = 8.6.1
-  - numpy = 1.23.1
-  - scipy = 1.12.0
-  - plotnine = 0.13.0
+  - python == 3.10.12
+  - ipyparallel == 8.6.1
+  - numpy == 1.23.1
+  - scipy == 1.12.0
+  - plotnine == 0.13.0
   # R (including package manager)
   # R 4.1.3 is the latest version to use R_GE_version == 14, which is compatible with RStudio server 2022.12.0+353 on binder
-  - r-essentials = 4.1
-  - r-markdown = 1.7
+  - r-essentials == 4.1
+  - r-markdown == 1.7
+  - r-bootstrap == 2019.6
   # Jupyter Lab extensions
-  - jupyterlab-spreadsheet-editor = 0.6.1
-  - jupyterlab-drawio = 0.9.0
-  - jupyterlab-latex = 3.1.0
-  - jupyterlab-filesystem-access = 0.5.3 
+  - jupyterlab-spreadsheet-editor == 0.6.1
+  - jupyterlab-drawio == 0.9.0
+  - jupyterlab-latex == 3.1.0
+  - jupyterlab-filesystem-access == 0.5.3 
