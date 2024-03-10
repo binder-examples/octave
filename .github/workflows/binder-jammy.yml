@@ -1,5 +1,8 @@
-name: Binder
-on: [push]
+name: Binder-jammy
+on: 
+  push:
+    branches:
+      - jammy
 
 jobs:
   Create-MyBinderOrg-Cache:
