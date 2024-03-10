@@ -1,4 +1,4 @@
-name: Binder-master
+name: binder-master
 on:
   push:
     branches:
