@@ -1,4 +1,4 @@
-name: Binder-jammy
+name: binder-jammy
 on: 
   push:
     branches:
