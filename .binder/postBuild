@@ -1,6 +1,12 @@
+#!/bin/bash
+
 # Fail fast
 set -o errexit
 set -o nounset
+
+# Uninstall jupyter-offlinenotebook extension since the 'Download' button function is buggy
+# Download from the 'File' menu instead
+micromamba remove -yn notebook jupyter-offlinenotebook
 
 # Installation of Octave packages is dependent on current user.
 # This works because postBuild user is the same as user running Binder.
