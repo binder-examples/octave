@@ -2,8 +2,6 @@
 
 Try the statistics-resampling package online in a Notebook with an **Octave** kernel within Jupyter Lab using Binder by clicking the launch-binder button: 
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/statistics-resampling-online/master?labpath=statistics-resampling.ipynb) (default branch: master)
-
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/statistics-resampling-online/jammy?labpath=statistics-resampling.ipynb) (stable branch: jammy)
 
 Note that the first time you access statistics-resampling-online (since the last commit at the GitHub repository) it may take a while to build, but frequent access to statistics-resampling-online thereon should give load times less than a minute. Data files (.tsv and .csv) can be conveniently modified using the [jupyterlab-spreadsheet-editor](https://jupyterlab-contrib.github.io/jupyterlab-spreadsheet-editor.html) included in this environment. Other Jupyter Lab extensions included enable the creation and editing of diagrams and LaTeX documents. The environment also includes kernels to run workbooks in **Julia**, **Python** and **R** (in which additional packages and modules can be installed with Pkg, pip, or from CRAN respectively). Preferably, pre-built packages can also be installed from within code cells of a notebook by executing the system command `!conda install -qc conda-forge <package-name>`, where `<package-name>` is replaced with the name of a [conda-forge package](https://conda-forge.org/packages/).
